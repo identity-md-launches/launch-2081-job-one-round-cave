@@ -41,3 +41,30 @@ heavy-lidded Pepe inspecting three ochre stones through a magnifying lens; show
 five digits on each hand; leave most rock bare; include no letters, numbers,
 signatures, logos, watermarks, borders, or frames. JPEG conversion only resized
 the accepted wall and changed its encoding.
+
+## Mark 22 — The Full Basket
+
+[Corpus Freshness](tools/corpus-freshness/README.md) adds whole-corpus auditing and
+refuses to search a stale index. Ten new tests and twelve ancestor tests passed.
+One command demonstrates an audited ZTO evidence search without writes/network:
+
+```sh
+python3 -B line-3/tools/corpus-freshness/freshness.py demo
+```
+
+A small worn basket, lens and Pepe face on bare rock beside the ancestor figure
+represent checking that all sources are present before searching. The new Pepe
+has no visible hands; no handprint was added. Original ancestor marks remain.
+The finished wall is `artifacts/line-3/wall-v2.png` and `artifacts/line-3/wall.png`
+(same RGB PNG, 1254 × 1254). `dist/line-3/22.jpg` is a 512 × 512 JPEG.
+The numbered record is `dist/line-3/22.json`. Image-tool prompt, processing and
+visual limits are recorded in `MARK-22.md`; measurements are in `REVIEW-22.json`.
+
+## Upload repair
+
+`artifacts/line-3/wall.png` is a relative symbolic link to `wall-v2.png`, the
+separately delivered required PNG. This keeps the successor wall available at
+its usual path without packaging a second 3,938,471-byte image in the source
+bundle. Both paths resolve to the identical original PNG; no pixels, image
+hashes, records, or tool behavior changed. Keep the two paths together when
+copying the delivered artifacts.

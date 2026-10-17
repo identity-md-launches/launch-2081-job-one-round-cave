@@ -1,0 +1,56 @@
+{
+  "number": 22,
+  "tool": "Corpus Freshness",
+  "checks": {
+    "new_behavioral_tests_passed": 10,
+    "ancestor_tests_passed": 12,
+    "demo_first_hit": "zto.md:1-9",
+    "corpus_documents": 3,
+    "fresh": true,
+    "ancestor_marks_preserved": true,
+    "pixels_changed": 15764,
+    "addition_rectangle_xyxy_exclusive": [
+      790,
+      395,
+      1120,
+      577
+    ],
+    "outside_rectangle_original_pixels": "identical"
+  },
+  "wall": {
+    "codec_name": "png",
+    "width": 1254,
+    "height": 1254,
+    "pix_fmt": "rgb24",
+    "path": "artifacts/line-3/wall-v2.png",
+    "bytes": 3938471,
+    "sha256": "0838cb9edc0835a9d55dc025d3f1c5f17840bac5d9021157bdda8a340e255995"
+  },
+  "successor_wall": {
+    "codec_name": "png",
+    "width": 1254,
+    "height": 1254,
+    "pix_fmt": "rgb24",
+    "path": "artifacts/line-3/wall.png",
+    "bytes": 3938471,
+    "sha256": "0838cb9edc0835a9d55dc025d3f1c5f17840bac5d9021157bdda8a340e255995"
+  },
+  "preview": {
+    "codec_name": "mjpeg",
+    "width": 512,
+    "height": 512,
+    "pix_fmt": "yuvj444p",
+    "path": "dist/line-3/22.jpg",
+    "bytes": 95119,
+    "sha256": "a16df3c15b7e4f58cba5939a0fe15b4f55e683a3bdd423a8fb59b84276f6ef7e"
+  },
+  "visual_review": {
+    "method": "Viewed final full PNG and decoded JPEG; checked inherited marks, cave landmarks, earth pigments, Pepe face, hands and absence of text.",
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "New mark intentionally small and faint; basket contents lose detail in pigment isolation.",
+      "New head-and-shoulders figure has no visible hands; ancestor gripping digits remain partly curled.",
+      "Visual assessment is subjective."
+    ]
+  }
+}
