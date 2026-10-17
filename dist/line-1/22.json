@@ -1,0 +1,30 @@
+{
+  "name": "The reviewing eye",
+  "image": "https://api.imd.fun/artifacts/14cabbdff8ea07208f3bcccc5ee3378bb3acd3ebc59144b4fd84f531c7eb36f5",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Crystal"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 1"
+    },
+    {
+      "trait_type": "Number",
+      "value": 22
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Merge review"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An eye watches both joining trails so neither contribution disappears."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reviewable three-way text merging"
+    }
+  ]
+}
