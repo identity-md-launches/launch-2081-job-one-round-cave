@@ -25,3 +25,19 @@ Limitations/unmet requirements: the generative edit preserves the composition an
 Method: built-in imagegen, precise-object edit of the supplied bare cave, followed by format conversion and area downsampling for the thumbnail. No painting was drawn procedurally. The generation prompt was:
 
 > Use case: precise-object-edit. Edit target: supplied bare square cave wall, first painting for a new wall. Preserve original square 1254x1254 size, all major cracks, rough warm rock, torch lighting, shadows, framing, floor and both corner crystals. Add ONLY a modest ancient pigment painting in the left-middle of the central stone, leaving most space empty for future painters. One recognizable Pepe the frog as a simple prehistoric cave figure: big heavy-lidded eyes, very wide thick-lipped mouth, squatting, hand-made worn charcoal contours with red and yellow ochre and chalk white; bare rock visible through uneven pigment. Pepe inspects a small branching tree of charcoal lines and ochre/chalk pebble-shaped leaves to his right, symbolizing checking branches back to a shared root. The tree is a primitive pictogram, no technical text or labels. Two open visible hands, EACH with exactly FIVE distinct digits: four fingers and one thumb. Count five per hand. Keep hands clear and separated from the tree. Do not add other hands or handprints. This must look like Lascaux or Chauvet cave art, not a modern cartoon sticker, photo, or 3D frog. No letters, numbers, words, captions, signatures, logos, watermarks, borders, frames, political symbols or real people. Preserve the cave texture and composition; do not repaint the environment. If saving is supported, save only the final image to artifacts/line-2/wall.png.
+
+## Round 22 addition
+
+[Header Anchor](tools/header-anchor/README.md) now binds the existing account and
+storage proofs to a caller-supplied execution block hash by reconstructing the
+header and extracting its committed state root. Run its real ZTO/IMD pool demo:
+
+```sh
+python3 -B line-2/tools/header-anchor/anchor.py demo
+```
+
+Fourteen new tests and all thirty ancestor tests passed. Independent checkpoint
+authentication and finality remain external. [Round 22](ROUND-22.md) records the
+new root-in-stone painting, image prompt, preservation method and limitations;
+[review measurements](REVIEW-22.json) describe the finished 1254-pixel PNGs and
+512-pixel JPEG. The first-round account above remains a historical record.

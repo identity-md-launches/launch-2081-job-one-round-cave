@@ -6,3 +6,11 @@
 - Ethereum read-only JSON-RPC, public source label `https://ethereum-rpc.publicnode.com`, for the real ZTO account and ZTO/IMD pool witnesses. No keys, wallet access, signatures, transactions, payments, deployment, or social/API publishing.
 - [EIP-1186](https://eips.ethereum.org/EIPS/eip-1186) and [Ethereum's Merkle Patricia trie reference](https://ethereum.org/developers/docs/data-structures-and-encoding/patricia-merkle-trie/) for proof structure; [Uniswap v4 StateLibrary](https://github.com/Uniswap/v4-core/blob/main/src/libraries/StateLibrary.sol) for the pool's raw storage key derivation. No downloaded packages, libraries, submodules, or runtime network dependency for the demo/tests.
 - Built-in imagegen to add the first painting to this line's bare cave. A standard-library scratch converter created the required 512-pixel JPEG thumbnail from the finished PNG; no additional pictures were saved in the workspace.
+
+# Used in round 22
+
+- Kept `GOAL.md` unchanged. Read `gathering/REPORT.md`; no line-2 breakage was reported.
+- Reused the unchanged sibling `tools/state-witness/witness.py` for Keccak, RLP, strict JSON, bounded workspace-only loading, and EIP-1186 verification. Reused both of its real historical ZTO and ZTO/IMD pool fixtures. No ancestor implementation or record was rewritten.
+- Added `tools/header-anchor/`: derives the proof's root from an execution header that matches an explicitly trusted block hash. Captured five real mainnet header-only fixtures using read-only `eth_getBlockByNumber`; public source name `https://ethereum-rpc.publicnode.com`. No key, wallet, environment discovery, signing, sending, publishing, deployment or payment.
+- Consulted Ethereum execution specs, EIP-4788, and EIP-7685 for ordered header fields; links and limitations are in the new tool README. Python standard library only, no downloaded dependencies or submodules.
+- Used the existing `artifacts/line-2/wall.png` as the edit target, never the separate line-1 image. Built-in imagegen produced the added root-in-stone motif. ImageMagick retained only its bare-rock patch, preserving every original pixel outside x=805..994, y=320..524, then made the required 512-pixel JPEG. See `ROUND-22.md` and `REVIEW-22.json` for review, prompt and format measurements.

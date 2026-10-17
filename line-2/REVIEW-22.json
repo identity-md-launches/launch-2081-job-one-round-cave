@@ -1,0 +1,70 @@
+{
+  "round": 22,
+  "images": [
+    {
+      "path": "artifacts/line-2/wall-v2.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "channels": "srgb",
+      "bytes": 2797014,
+      "sha256": "51643d9786612c6f3dfcad9cca2cad4be157b585ade1374333e757fb5da1fb07"
+    },
+    {
+      "path": "artifacts/line-2/wall.png",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "channels": "srgb",
+      "bytes": 2797014,
+      "sha256": "51643d9786612c6f3dfcad9cca2cad4be157b585ade1374333e757fb5da1fb07"
+    },
+    {
+      "path": "dist/line-2/22.jpg",
+      "format": "JPEG",
+      "width": 512,
+      "height": 512,
+      "channels": "srgb",
+      "bytes": 76136,
+      "sha256": "53741363c2389c904d49b749e0d77a5bb9c4d8d2b70f8003dcd730689784d7da"
+    }
+  ],
+  "record": "dist/line-2/22.json",
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": 21,
+  "offlineTests": {
+    "headerAnchor": 14,
+    "stateWitness": 30,
+    "passed": 44,
+    "failed": 0
+  },
+  "visualReview": {
+    "method": "Local full PNG and 512px JPEG inspection, plus decoded RGB pixel comparison to the ancestor wall.",
+    "recognizablePepe": true,
+    "digitsPerAncestorHand": [
+      5,
+      5
+    ],
+    "newHandsOrHandprints": 0,
+    "prohibitedVisualElementsObserved": false,
+    "ancestorPaintingRetained": true,
+    "changedPixelCount": 38927,
+    "changedPixelBoundsInclusive": [
+      805,
+      320,
+      994,
+      524
+    ],
+    "pixelsChangedOutsideAdditionPatch": 0,
+    "externalVisualApproval": false
+  },
+  "unmetRequirements": [
+    "Fine rock texture within the addition patch is not identical to the ancestor; all pixels outside the patch are identical.",
+    "The explicitly required beside-record JPEG is in dist/line-2 rather than artifacts/, following the existing accepted layout despite the conflicting blanket image-location rule."
+  ],
+  "toolLimitations": [
+    "The supplied block hash still requires independent chain, canonicality and finality authentication.",
+    "Demo checkpoints are historical RPC observations, not consensus-verified checkpoints.",
+    "Supported execution header schemas end at Prague; unknown fields fail closed."
+  ]
+}
