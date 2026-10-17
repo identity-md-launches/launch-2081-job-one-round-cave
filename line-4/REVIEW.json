@@ -52,5 +52,14 @@
     "Finite catalog and numeric release grammar only; not a package installer or complete ecosystem lockfile.",
     "Example excludes Python/platform constraints, conditional dependencies, and extras.",
     "Budget/depth limits return inconclusive rather than claiming no solution."
-  ]
+  ],
+  "required_output": {
+    "path": "artifacts/line-4/wall-v2.png",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2528654,
+    "sha256": "744178408ffe88c1b2141c369151c45a0fca1edfc0dbbde502194526385f6c62",
+    "verification": "Byte-identical copy of the existing reviewed wall; PNG signature, dimensions, chunk CRCs and compressed image data checked."
+  }
 }
