@@ -1,0 +1,15 @@
+{
+  "format": "evidence-search/v1",
+  "documents": [
+    {
+      "path": "anchor.md",
+      "sha256": "8ddaab759ebe83756c6459ad3ba6add865152cbbe84e2578756f36fb290b84fa",
+      "text": "# Execution header commitment\nSupplied block hash: 0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc\nCommitted state root: 0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\nBlock number: 0x18ff826\nTimestamp: 0x6ad36f57\nHeader encoding: prague\nTrust: Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked.\n"
+    },
+    {
+      "path": "receipt.md",
+      "sha256": "88e63f06b54d1625491b6c162f55cd8a2b83b19c204d82855dc7f0a9aa60673c",
+      "text": "# Ethereum state proof receipt\nTrust: Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked. Supplied block hash: 0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc\nExpected state root: 0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\nExpected account address: 0x000000000004444c5dc75cb358380d2e3de08a90\nAccount exists: true\nNonce: 0x1\nNative ETH balance wei: 57499945682580518811968\nCode hash: 0x785f1014552b7ce7d5fb7d0c970ca60edee94fd00425d7ca21609acac7ce1293\nStorage root: 0x6071a51b5b6739ea7b7d63b4ee086311b3a11b2f41a02f13f30158e99c1377c0\n\n# Raw storage claim\nExpected state root: 0x70c13580735123b57c0a9a24692875f4ef366b04c69d92af9f539561e626d512\nExpected account address: 0x000000000004444c5dc75cb358380d2e3de08a90\nSlot: 0x85763e16f60121d4266264cb693cca4d6bdb9e98ff9cc3d698d892d90342971b\nValue: 0x30d400000001b32f000000000000010675ff9d949ea2d3c11613bc41\nExists: true\nTrust: Header and state proof match the supplied block hash. The caller must authenticate that hash and its chain, canonicality and finality independently. Consensus and execution validity are not checked. Supplied block hash: 0x38dc4deb12174972d332cc1f95008b25ea87434f420ce0a51938e1b28755e9dc\n"
+    }
+  ]
+}

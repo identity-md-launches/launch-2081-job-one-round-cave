@@ -1,0 +1,69 @@
+{
+  "wall": {
+    "path": "artifacts/gathering/wall-v2.png",
+    "continuation": "artifacts/gathering/wall.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "mode": "RGB",
+    "sha256": "1130eaf5972858faf37f6c165e7b762f657e335337bffed67ec8e381f8e2e7b2",
+    "continuation_storage": "relative symlink to separately uploaded wall-v2.png"
+  },
+  "thumbnail": {
+    "path": "dist/gathering/22.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "JPEG",
+    "bytes": 99192
+  },
+  "visual_review": "Inspected the final full wall and JPEG. Recognizable ancestor Pepe retains wide mouth and heavy-lidded eyes; prior tree, eye, leaf, stones, four paths and bowl remain untouched. Added worn ochre interlocking rings only on bare rock below/right of bowl. Original warm rock, crystals, light, cracks and framing retained. No letters, numbers, captions, logos, watermarks, borders, real people or political/hateful symbols observed. No visible hands or handprints: ancestor hands are concealed; none added.",
+  "hand_digit_review": "No exposed hands or handprints to count; no four- or six-digit anatomy added.",
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "The generated tiny sprout is very faint against the retained rock; the two rings carry the mark meaning.",
+    "Pigment extraction is approximate; local visual review is not independent certification."
+  ],
+  "preservation": {
+    "ancestor_sha256": "0f6a1d04cc77f550fe19e9f743b009aa7b338700d7ffc41921b10e284d4c158c",
+    "wall_sha256": "1130eaf5972858faf37f6c165e7b762f657e335337bffed67ec8e381f8e2e7b2",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "format": "PNG",
+    "new_mark_rectangle": [
+      780,
+      915,
+      210,
+      165
+    ],
+    "changed_pixels": 9192,
+    "changed_pixels_outside_rectangle": 0
+  },
+  "checks": {
+    "line_tests_passed": 119,
+    "original_shared_tests_passed": 4,
+    "new_shared_tests_passed": 10,
+    "line_demo_cases_passed": 10,
+    "line_folders_changed": false,
+    "total_dist_records": 109,
+    "preserved_placeholders": 100,
+    "gallery_dom_smoke_check": "5 groups, 109 cards newest first, 9 local JPEG fallbacks, placeholder toggle passed; no full-browser rendering check",
+    "portable_shared_demo_passed": true,
+    "all_non_artifact_deliverable_files_below_100000_bytes": true,
+    "wall_hash_matches_record": true,
+    "decoded_png_compared_with_git_ancestor": true,
+    "required_wall_v2_untracked": true
+  },
+  "record_number_note": "22 follows existing numbered records 01 through 21, including placeholders, as in inherited line 1\u20133 round 22.",
+  "bundle_repair": {
+    "evidence": "gathering/bundle-repair.json",
+    "png_bytes_unchanged": true,
+    "source_payload_bytes_removed": 3990751,
+    "external_bundle_checker_rerun": false
+  }
+}
